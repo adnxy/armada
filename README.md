@@ -1,14 +1,14 @@
-# Getting Started with Create React App
+# Armada: A Free World Strategy Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Armada is an open-source strategy game where players build and command naval fleets in a vast open world. Explore the seas, engage in tactical combat, and forge alliances in this React-based strategy experience.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+This project is built with React. To get started with development:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the game in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -16,55 +16,37 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the game for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Game Features
 
-### `npm run eject`
+- **Strategic Naval Combat**: Command fleets of ships in tactical turn-based combat
+- **Open World Exploration**: Navigate a procedurally generated world map
+- **Resource Management**: Gather resources to build and upgrade your fleet
+- **Alliance System**: Form alliances with other players for mutual benefit
+- **Campaign Mode**: Follow an epic storyline or create your own path
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technical Architecture
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Armada is built using functional React components and follows a modern React architecture:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Functional components with hooks
+- Redux for state management
+- CSS Modules for styling
+- Jest for testing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions to Armada are welcome! Please check the issues page for current needs or propose new features.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Armada is free software and is available under the MIT License.
